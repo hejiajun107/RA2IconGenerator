@@ -1,0 +1,46 @@
+{
+  "OutPutType": "png", //png or pcx
+  //字体
+  "FontFamily": "Microsoft YaHei", //"站酷快乐体.ttf"
+  //颜色
+  "TextColor": "#ffffff",
+  //字号
+  "TextSize": 8.5,
+  "VeteranIcon": "./assets/veteran.png",
+  //模板
+  "Template": [
+    {
+      "X": 0,
+      "Y": 0,
+      "Type": "Icon"
+    },
+    {
+      "X": 0,
+      "Y": 0,
+      "Type": "Image",
+      "Src": "./assets/back.png"
+    },
+    {
+      "X": 0,
+      "Y": 40,
+      "Type": "Text"
+    },
+    {
+      "X": 1,
+      "Y": 41,
+      "Type": "Text",
+      "TextColor": "#000000"
+    },
+    {
+      "X": 0,
+      "Y": 0,
+      "Type": "Veteran"
+    },
+    {
+      "X": 0,
+      "Y": 0,
+      "Type": "Image",
+      "Src": "./assets/front.png"
+    }
+  ]
+}
